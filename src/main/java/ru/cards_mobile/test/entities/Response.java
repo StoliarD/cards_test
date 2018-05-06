@@ -2,8 +2,6 @@ package ru.cards_mobile.test.entities;
 
 
 public class Response {
-//    private static final String OK = "OK";
-//    private static final String ERROR = "ERROR";
 
     private final Status status;
     private final Object info;

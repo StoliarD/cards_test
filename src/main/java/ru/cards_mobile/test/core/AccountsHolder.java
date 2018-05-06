@@ -2,7 +2,6 @@ package ru.cards_mobile.test.core;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.cards_mobile.test.AppConfig;
 import ru.cards_mobile.test.entities.Account;
 
 import java.util.concurrent.ConcurrentHashMap;
@@ -10,6 +9,8 @@ import java.util.concurrent.ConcurrentMap;
 
 /**
  * in-memory implementation
+ *
+ * {@inheritDoc}
  */
 public class AccountsHolder implements AccountsService {
 
